@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comidas</title>
+    <link rel="stylesheet" href="framework.css" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="https://kit.fontawesome.com/fbd5fd9853.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-content">
+        <nav class="main-navigation">
+          <!--       <a href="index" class="logo"><img src="imagenes/logotipo.png" alt=""></a>
+ -->
+          <span class="logo-text"><i class="fa-solid fa-bowl-food"></i> Comidas</span>
+
+          <nav class="main-options">
+            <a href="index.html" class="active"><i class="fa-solid fa-bowl-food"></i> Comidas</a>
+            <a href="contacto.html"><i class="fa-solid fa-phone"></i> Pedidos</a>
+          </nav>
+        </nav>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Asado de puerco</h2>
+      <div class="grid-container">
+        <article class="grid-item">
+          <img src="imagenes/Platillo de asado de puerco con arroz de cuadro de pollo.jpeg" />
+          <span>Platillo con arroz de cuadro de pollo</span>
+          <a href="#contenido-de-platillo-con-arroz" class="btn btn-outline-primary">Más información</a>
+        </article>
+        <article class="grid-item">
+          <img src="imagenes/Platillo de asado de puerco con espagueti de queso.jpeg" />
+          <span>Platillo con espagueti de queso</span>
+          <a href="#contenido-de-platillo-con-espagueti" class="btn btn-outline-primary">Más información</a>
+        </article>
+      </div>
+
+      <h2>Arroz de cuadro de pollo</h2>
+      <div class="grid-container">
+        <article class="grid-item">
+          <img src="imagenes/1 Kilogramo de arroz de cuadro de pollo.jpeg" />
+          <span>1 Kilogramo</span>
+          <a href="#contenido-de-kilogramo-de-arroz-de-cuadro-de-pollo" class="btn btn-outline-primary">Más información</a>
+        </article>
+        <article class="grid-item">
+          <img src="imagenes/Medio Kilogramo de arroz de cuadro de pollo.jpeg" />
+          <span>1/2 Kilogramo</span>
+          <a href="#contenido-de-medio-kilogramo-de-arroz-de-cuadro-de-pollo" class="btn btn-outline-primary">Más información</a>
+        </article>
+      </div>
+
+      <h2>Espagueti de queso</h2>
+      <div class="grid-container">
+        <article class="grid-item">
+          <img src="imagenes/1 Kilogramo de espagueti de queso.jpeg" />
+          <span>1 Kilogramo</span>
+          <a href="#contenido-de-kilogramo-de-espagueti-de-queso" class="btn btn-outline-primary">Más información</a>
+        </article>
+        <article class="grid-item">
+          <img src="imagenes/Medio Kilogramo de espagueti de queso.jpeg" />
+          <span>1/2 Kilogramo</span>
+          <a href="#contenido-de-medio-kilogramo-de-espagueti-de-queso" class="btn btn-outline-primary">Más información</a>
+        </article>
+      </div>
+
+      <h2>Hamburguesa</h2>
+      <div class="grid-container">
+        <article class="grid-item">
+          <img src="imagenes/Hamburguesa sencilla.jpeg" />
+          <span>Sencilla</span>
+          <a href="#contenido-de-hamburguesa-sencilla" class="btn btn-outline-primary">Más información</a>
+        </article>
+        <article class="grid-item">
+          <img src="imagenes/Hamburguesa con papas.png" />
+          <span>Con papas</span>
+          <a href="#contenido-de-hamburguesa-con-papas" class="btn btn-outline-primary">Más información</a>
+        </article>
+      </div>
+
+      <h2>Flautas de pollo</h2>
+      <div class="grid-container">
+        <article class="grid-item">
+          <img src="imagenes/mole rojo.png" />
+          <span>Platillo</span>
+          <a href="#contenido-de-platillo-de-flautas-de-pollo" class="btn btn-outline-primary">Más información</a>
+        </article>
+      </div>
+    </main>
+
+    <!-- Food modal container -->
+
+    <section class="modal-container" id="contenido-de-platillo-con-arroz">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">Platillo de asado de puerco con arroz de cuadro de pollo</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <div>
+              <span>Precio:</span> $95
+              <br />
+              <span>Incluye:</span>
+              <ul>
+                <li>Asado de puerco</li>
+                <li>Arroz de cuadro de pollo</li>
+                <li>5 tortillas</li>
+              </ul>
+            </div>
+            <img src="imagenes/Platillo de asado de puerco con arroz de cuadro de pollo.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-container" id="contenido-de-platillo-con-espagueti">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">Platillo de asado de puerco con espagueti de queso</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <div>
+              <span>Precio:</span> $95
+              <br />
+              <span>Incluye:</span>
+              <ul>
+                <li>Asado de puerco</li>
+                <li>Espagueti de queso</li>
+                <li>5 tortillas</li>
+              </ul>
+            </div>
+            <img src="imagenes/Platillo de asado de puerco con espagueti de queso.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-container" id="contenido-de-kilogramo-de-arroz-de-cuadro-de-pollo">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">1 Kilogramo de arroz de cuadro de pollo</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <div>
+              <span>Precio:</span> $85
+              <br />
+            </div>
+            <img src="imagenes/1 Kilogramo de arroz de cuadro de pollo.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-container" id="contenido-de-medio-kilogramo-de-arroz-de-cuadro-de-pollo">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">1/2 Kilogramo de arroz de cuadro de pollo</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <div>
+              <span>Precio:</span> $45
+            </div>
+            <img src="imagenes/Medio Kilogramo de arroz de cuadro de pollo.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-container" id="contenido-de-kilogramo-de-espagueti-de-queso">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">1 Kilogramo de espagueti de queso</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <div>
+              <span>Precio:</span> $85
+            </div>
+            <img src="imagenes/1 Kilogramo de espagueti de queso.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-container" id="contenido-de-medio-kilogramo-de-espagueti-de-queso">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">1/2 Kilogramo de espagueti de queso</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <div>
+              <span>Precio:</span> $45
+            </div>
+            <img src="imagenes/Medio Kilogramo de espagueti de queso.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-container" id="contenido-de-hamburguesa-sencilla">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">Hamburguesa sencilla</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <div>
+              <span>Precio:</span> $65
+              <br />
+              <span>Incluye:</span>
+              <ul>
+                <li>Hamburguesa</li>
+                <li>Catsup</li>
+                <li>Salsa BBQ</li>
+              </ul>
+            </div>
+            <img src="imagenes/Hamburguesa sencilla.jpeg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-container" id="contenido-de-hamburguesa-con-papas">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">Hamburguesa con papas</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <div>
+              <span>Precio:</span> $95
+              <br />
+              <span>Incluye:</span>
+              <ul>
+                <li>Hamburguesa</li>
+                <li>Papas</li>
+                <li>Catsup</li>
+                <li>Salsa BBQ</li>
+              </ul>
+            </div>
+            <img src="imagenes/Hamburguesa con papas.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="modal-container" id="contenido-de-platillo-de-flautas-de-pollo">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-titles">
+            <div class="modal-main-title">Platillo de flautas de pollo</div>
+          </div>
+
+          <a href="#cerrar" class="modal-btn-close"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+
+        <div class="modal-body">
+          <div class="content-body">
+            <img src="imagenes/mole rojo.png" />
+            <div>
+              <span>Precio:</span> $80
+              <br />
+              <span>Incluye:</span>
+              <ul>
+                <li>5 flautas de pollo</li>
+                <li>Lechuga</li>
+                <li>Guacamole</li>
+                <li>Salsa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="bottom-navigation">
+      <a href="index.html" class="active"> <i class="fa-solid fa-bowl-food"></i><span>Comidas</span> </a>
+
+      <a href="contacto.html"> <i class="fa-solid fa-phone"></i><span>Pedidos</span> </a>
+    </nav>
+
+    <script>
+      document.addEventListener("click", e => {
+        if(e.target.matches(".modal-container"))
+        {
+          window.location.href = "#cerrar";
+        }
+      })
+    </script>
+  </body>
+</html>
