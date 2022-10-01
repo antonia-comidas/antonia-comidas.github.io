@@ -1,11 +1,3 @@
-.mapa {
-  width: 95%;
-  aspect-ratio: 1/1;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  border-radius: 1rem;
-  margin-top: 2rem;
-}
-
 .logo-text {
   color: rgb(var(--primary-rgb));
   font-size: var(--step-3);
@@ -108,15 +100,16 @@ main {
 }
 
 .content-body div:nth-of-type(1) {
-  font-size: var(--step-1);
+  font-size: var(--step-0);
   border: 1px solid rgb(var(--primary-rgb));
   padding: 0.5rem;
   background-color: rgba(var(--primary-rgb), 0.1);
   border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .content-body div:nth-of-type(1) span {
-  font-weight: 600;
+  font-weight: 700;
   color: rgb(var(--dark-rgb));
 }
 
