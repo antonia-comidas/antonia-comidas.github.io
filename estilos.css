@@ -23,6 +23,15 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   padding: 0.5rem;
+  text-transform: uppercase;
+}
+
+.contact-info {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: rgb(var(--primary-rgb));
+  font-size: var(--step-0);
+  padding: 0.5rem;
 }
 
 /* Main*/
@@ -43,7 +52,7 @@ main {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-bottom: 2rem;
 }
 
@@ -69,7 +78,7 @@ main {
   text-align: center;
   overflow: hidden;
   font-size: var(--step-1);
-  font-weight: 700;
+  font-weight: 600;
   color: rgb(var(--dark-rgb));
   margin: 0.5rem;
 }
@@ -107,7 +116,7 @@ main {
 }
 
 .content-body div:nth-of-type(1) span {
-  font-weight: 700;
+  font-weight: 600;
   color: rgb(var(--dark-rgb));
 }
 
@@ -165,6 +174,7 @@ ul {
   }
   .grid-container {
     grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
   }
 
   .content-body {
